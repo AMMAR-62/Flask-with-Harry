@@ -1,0 +1,12 @@
+In this video, I have explained how a basic structure of a website works 
+and how a beginner can get an answer of his "How I can start developing websites" question. 
+This video is a starter for this web development using flask playlist 
+wherein I have explained different operations one can acheive using python flask module. 
+Python flask module comes with a decent documentation but the same can be very difficult and tricky to understand if you are a beginner.
+This video breaks down the syntax, concept as well as the best practices of developing web applications 
+using python flask module. Later in this series, we will work with Flask-SQLAlchemy module 
+which will help us to leverage sqlalchemy using flask.
+Flask module can also be used as a rest service using jsonify function but in this series we will use flask to create a blog in python. 
+The blog will have all the different parameters configurable which means that anyone can open the config.json file, e
+dit it and make the fork of this blog his own.
+In a nut shell, this video is a practical demonstration of how flask works and how any website utilizes its backend to serve http requests.

@@ -1,0 +1,62 @@
+<!-- @format -->
+
+{% extends "layout.html" %} {% block body %}
+	<!-- Page Header -->
+	<header
+		class="masthead"
+		style="background-image: url('{{  url_for('static',filename='about-bg.jpg')  }}')"
+	>
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div class="page-heading">
+						<h1>Recommended Programs</h1>
+						<span class="subheading">Enroll in the subject of interest and master it</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<!-- Main Content -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+			
+
+
+			<!-- Todo: Fetch it using the for loop using the data base  -->
+				<div class="post-preview">
+					<a href="/Post">
+						<h2 class="post-title">
+							DIGITAL SYSTEMS AND LOGIC DESIGN
+						</h2>
+						<h3 class="post-subtitle">
+							Digital logic design is a system in electrical and computer engineering that uses 
+							simple number values to produce input and output operations.
+							As a digital design engineer, you may assist in developing cell phones, computers, 
+							and related personal electronic devices.
+						</h3>
+					</a>
+					<p class="post-meta">
+						Posted by
+						<a href="#">CrazyFORPointers</a>
+						On 8<sup>th</sup> October, 2020
+					</p>
+					<button type="button" class="btn btn-warning">Enroll</button>
+				</div>
+				<hr />
+				<!-- Pager -->
+				<div class="clearfix">
+					<a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+</body>
+{% endblock %}
